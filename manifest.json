@@ -1,0 +1,13 @@
+{
+"manifest_version":2,
+"name":"Tweeter",
+"description":"https://github.com/wkrause13/tweeter.git",
+"version":"1",
+"content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "js": ["main.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
